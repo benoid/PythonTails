@@ -1,3 +1,3 @@
-# PythonTails
+# pygtails
 
 
