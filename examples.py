@@ -23,7 +23,6 @@ recursive_print("hello")
 
 
 # Example 2
-#
 # Recursive implementation of Sieve of Etatosthenes
 
 def sieve_of_eratosthnes(max):
