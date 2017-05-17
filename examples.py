@@ -25,7 +25,7 @@ recursive_print("hello")
 # Example 2
 # Recursive implementation of Sieve of Etatosthenes
 
-def sieve_of_eratosthnes(max):
+def sieve_of_eratosthenes(max):
     def helper(nums, known_primes):
         if len(nums) > 0:
             current_prime = nums[0]
@@ -35,5 +35,5 @@ def sieve_of_eratosthnes(max):
             return known_primes
     return TailCallable(helper)(range(2,max + 1), [])
 
-print(sieve_of_eratosthnes(100))
+print(sieve_of_eratosthenes(100))
     
