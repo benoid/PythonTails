@@ -4,7 +4,7 @@
 #
 # Takes a closure over function and creates a
 # callable object. The closure object is not executed on its own,
-# unless it is used as the the return value of a TailCallable object
+# rather it is used as the the return value of a TailCallable object
 class TailCall:
     def __init__(self, fn):
         self.fn = fn
